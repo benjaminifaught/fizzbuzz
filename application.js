@@ -1,6 +1,7 @@
 $(document).ready(function() {
+var max = parseInt(prompt("What number would you like to fizzbuzz to?"), 0);
 var s = "";
-for (var i = 1; i < 101; i++) {
+for (var i = 0; i <=max; i++) {
 	if (i % 15 == 0) {
 		console.log("FizzBuzz");
 		s = "FizzBuzz"; 
